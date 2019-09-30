@@ -11,7 +11,7 @@
 @implementation NSString (URLParameter)
 + (NSString *)addSchemes:(NSString *)url
                   params:(NSDictionary *)dictionary{
-    NSString *baseString = [[NSString readSchemesFromInfoPlist] stringByAppendingString:@"/"];
+    NSString *baseString = [[NSString readSchemesFromInfoPlist] stringByAppendingString:@"://"];
     baseString = [baseString stringByAppendingString:[NSString readSchemesFromInfoPlist]];
     return [self addQueryStringToUrl:baseString params:dictionary];
 }
