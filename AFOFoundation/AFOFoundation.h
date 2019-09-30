@@ -18,7 +18,8 @@ FOUNDATION_EXPORT const unsigned char AFOFoundationVersionString[];
 
 #import <AFOFoundation/NSString+Formatting.h>
 #import <AFOFoundation/NSString+Dictionary.h>
-#import <AFOFoundation/NSString+URLSchemes>
+#import <AFOFoundation/NSString+URLSchemes.h>
+#import <AFOFoundation/NSString+URLParameter.h>
 
 #import <AFOFoundation/AFOWeakInstance.h>
 

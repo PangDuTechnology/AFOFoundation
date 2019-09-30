@@ -30,6 +30,8 @@
 		DB2FF66123422A4700182D4A /* NSString+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF65F23422A4700182D4A /* NSString+Dictionary.m */; };
 		DB2FF665234234C800182D4A /* NSString+URLSchemes.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2FF663234234C800182D4A /* NSString+URLSchemes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB2FF666234234C800182D4A /* NSString+URLSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF664234234C800182D4A /* NSString+URLSchemes.m */; };
+		DB2FF66923423A9E00182D4A /* NSString+URLParameter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2FF66723423A9E00182D4A /* NSString+URLParameter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB2FF66A23423A9E00182D4A /* NSString+URLParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2FF66823423A9E00182D4A /* NSString+URLParameter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		DB2FF65F23422A4700182D4A /* NSString+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Dictionary.m"; sourceTree = "<group>"; };
 		DB2FF663234234C800182D4A /* NSString+URLSchemes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLSchemes.h"; sourceTree = "<group>"; };
 		DB2FF664234234C800182D4A /* NSString+URLSchemes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLSchemes.m"; sourceTree = "<group>"; };
+		DB2FF66723423A9E00182D4A /* NSString+URLParameter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLParameter.h"; sourceTree = "<group>"; };
+		DB2FF66823423A9E00182D4A /* NSString+URLParameter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLParameter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				DB2FF65F23422A4700182D4A /* NSString+Dictionary.m */,
 				DB2FF663234234C800182D4A /* NSString+URLSchemes.h */,
 				DB2FF664234234C800182D4A /* NSString+URLSchemes.m */,
+				DB2FF66723423A9E00182D4A /* NSString+URLParameter.h */,
+				DB2FF66823423A9E00182D4A /* NSString+URLParameter.m */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -191,6 +197,7 @@
 				DB2FF66023422A4700182D4A /* NSString+Dictionary.h in Headers */,
 				2425804421C736C20070E981 /* AFOMacroDefinition.h in Headers */,
 				DB2FF665234234C800182D4A /* NSString+URLSchemes.h in Headers */,
+				DB2FF66923423A9E00182D4A /* NSString+URLParameter.h in Headers */,
 				2446ED762019BFB400FD5012 /* NSMutableDictionary+AFOAbnormal.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2446ED202019AD4000FD5012 /* NSFileManager+AFOSandBox.m in Sources */,
+				DB2FF66A23423A9E00182D4A /* NSString+URLParameter.m in Sources */,
 				24885955201ACA3C00623E66 /* NSBundle+AFOCategory.m in Sources */,
 				2446ED732019BF9F00FD5012 /* NSDictionary+AFOAbnormal.m in Sources */,
 				2446ED772019BFB400FD5012 /* NSMutableDictionary+AFOAbnormal.m in Sources */,
