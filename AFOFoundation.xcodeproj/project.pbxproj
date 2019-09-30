@@ -161,7 +161,6 @@
 			isa = PBXGroup;
 			children = (
 				2489813F200F2D19008FB71D /* AFOFoundation.h */,
-				DB2FF6622342321000182D4A /* url */,
 				24325824225E216A003572D2 /* string */,
 				2425804221C736600070E981 /* define */,
 				24885951201AC9E300623E66 /* bundle */,
@@ -171,13 +170,6 @@
 				2446ED6F2019BF7800FD5012 /* dictionary */,
 			);
 			path = AFOFoundation;
-			sourceTree = "<group>";
-		};
-		DB2FF6622342321000182D4A /* url */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = url;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

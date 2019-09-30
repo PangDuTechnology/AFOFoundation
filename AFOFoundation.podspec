@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "AFOFoundation"
-  s.version      = "1.0.7"
+  s.version      = "1.0.8"
   s.summary      = "This library is for extending Foundation libraries."
 
   # This description is used to generate tags and improve search results.
