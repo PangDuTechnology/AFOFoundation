@@ -11,6 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSString (URLParameter)
+- (NSString *)addSchemes:(NSString *)url
+                  params:(NSDictionary *)dictionary;
 - (NSString*)addQueryStringToUrl:(NSString *)url
                           params:(NSDictionary *)params;
 @end
