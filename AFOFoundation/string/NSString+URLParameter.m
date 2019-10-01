@@ -9,12 +9,6 @@
 #import "NSString+URLParameter.h"
 #import "NSString+URLSchemes.h"
 @implementation NSString (URLParameter)
-+ (NSString *)addSchemes:(NSString *)url
-                  params:(NSDictionary *)dictionary{
-    NSString *baseString = [[NSString readSchemesFromInfoPlist] stringByAppendingString:@"://"];
-    baseString = [baseString stringByAppendingString:[NSString readSchemesFromInfoPlist]];
-    return [self addQueryStringToUrl:baseString params:dictionary];
-}
 + (NSString*)addQueryStringToUrl:(NSString *)url
                           params:(NSDictionary *)params {
     __block NSMutableString *urlWithQuerystring = [[NSMutableString alloc] initWithString:url];
