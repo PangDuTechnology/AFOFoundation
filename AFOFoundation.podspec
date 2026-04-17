@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
   s.author             = { "PangDu" => "xian312117@gmail.com" }
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "13.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source       = { :git => "https://github.com/PangDuTechnology/AFOFoundation.git", :tag => s.version.to_s }
